@@ -8,16 +8,19 @@ module.exports = (sequelize, DataTypes) => {
       },
       review: {
         type: DataTypes.STRING,
-        allowNull: true,
+        defaultValue: '',
       },
       keyword1: {
         type: DataTypes.STRING(10),
+        defaultValue: '',
       },
       keyword2: {
         type: DataTypes.STRING(10),
+        defaultValue: '',
       },
       keyword3: {
         type: DataTypes.STRING(10),
+        defaultValue: '',
       },
     },
     {
