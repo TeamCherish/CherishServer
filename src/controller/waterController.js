@@ -24,7 +24,7 @@ module.exports = {
         message: errors.array(),
       });
     }
-    const { water_date, review, keyword1, keyword2, keyword3, CherishId } = req.body;
+    const { review, keyword1, keyword2, keyword3, CherishId } = req.body;
 
     try {
       // CherishId 가 없으면? 나빠요..
@@ -41,7 +41,6 @@ module.exports = {
       if (review) {
         score += 1;
       }
-
       // models_water에 작성한 내용 생성하기
 
       const water = await waterService.postWater(CherishId, review, keyword1, keyword2, keyword3);
@@ -64,19 +63,23 @@ module.exports = {
 
       // Cherish에서 growth 받아오기
       const cherishGrowth = await Cherish.findOne({
-        attributes: ['growth'],
+        attributes: ['growth', 'cycle_date'],
         where: {
           id: CherishId,
         },
       });
-
+      let growth = cherishGrowth.dataValues.growth;
       if (score != 0) {
-        cherishGrowth.growth += score;
+        growth += score;
       }
-
+      const date = dayjs()
+        .add(parseInt(cherishGrowth.dataValues.cycle_date), 'day')
+        .format('YYYY-MM-DD');
       await Cherish.update(
         {
           postpone_number: 0,
+          growth: growth,
+          water_date: date,
         },
         {
           where: {
