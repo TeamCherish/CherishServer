@@ -30,11 +30,7 @@ module.exports = {
   ALREADY_EMAIL: '이미 존재하는 이메일 입니다.',
   CHECKED_EMAIL_SUCCESS: '이메일 중복확인 성공^0^',
   CHECKED_EMAIL_FAIL: '이메일 중복확인 실패＞︿＜',
-  FIND_PASSWORD_SUCCESS: '비밀번호 찾기 성공 ^o^',
-  FIND_PASSWORD_FAIL: '비밀번호 찾기 실패＞︿＜',
-  UPDATE_PASSWORD_SUCCESS: '비밀번호 변경 성공 ^o^',
-  UPDATE_PASSWORD_FAIL: '비밀번호 변경 실패＞︿＜',
-  NO_MATCH_PASSWORD: '비밀번호가 일치하지 않습니다',
+
   /* 물 줄 날짜 조회*/
   SEARCH_SUCCESS: '물줄날짜 조회 성공 ^o^',
   SEARCH_FAIL: '물줄날짜 조회 실패 ＞︿＜',
@@ -64,5 +60,5 @@ module.exports = {
   /*토큰*/
   EXPIRED_TOKEN: 'expired token',
   INVALID_TOKEN: 'invalid token',
-  SUCCESS_TOKEN: '토큰 발급 성공',
+  SUCCESS_TOKEN: '토큰 발급 성공'
 };

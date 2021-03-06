@@ -5,7 +5,7 @@ const sc = require('../modules/statusCode');
 const rm = require('../modules/responseMessage');
 const userService = require('../service/userService');
 const logger = require('../config/winston');
-const jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken')
 const secretKey = require('../config');
 
 module.exports = {
@@ -47,23 +47,19 @@ module.exports = {
       const user_nickname = user.nickname;
 
       // 토큰 발행
-      const token = await jwt.sign(
-        {
-          UserId,
-        },
-        secretKey.JWT_SECRET,
-        {
-          expiresIn: '15m', // 15분
+      const token = await jwt.sign({
+        UserId,
+      }, secretKey.JWT_SECRET, {
+        expiresIn: '15m', // 15분
           issuer: 'TL',
-        }
-      );
+      });
 
       //4. status: 200 ,message: SIGN_IN_SUCCESS, data: email반환
       return res.status(sc.OK).send(
         ut.success(rm.SIGN_IN_SUCCESS, {
           UserId,
           user_nickname,
-          token,
+          token
         })
       );
     } catch (error) {
@@ -126,86 +122,6 @@ module.exports = {
       console.log(err);
       logger.error(`POST /phoneAuth - Server Error - phoneAuth`);
       return res.status(sc.INTERNAL_SERVER_ERROR).send(ut.fail(rm.INTERNAL_SERVER_ERROR));
-    }
-  },
-
-  /* 비밀번호 찾기 */
-  findPassword: async (req, res) => {
-    logger.info('POST /login/findPassword');
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      logger.error(`POST /login/findPassword - Paramaters Error`);
-      return res.status(400).json({
-        success: false,
-        message: errors.array(),
-      });
-    }
-    // 1. req.body에서 데이터 가져오기
-    const { email } = req.body;
-
-    try {
-      //2. 존재하는 아이디인지 확인하기. 존재하지 않는 아이디면 NO USER 반환
-      const alreadyEmail = await userService.emailCheck({
-        email,
-      });
-      if (!alreadyEmail || !alreadyEmail.phone) {
-        logger.error(`POST /login/findPassword - emailCheck Error`);
-        return res.status(sc.BAD_REQUEST).send(ut.fail(rm.NO_USER));
-      }
-      const phone = alreadyEmail.phone.replace(/\-/g, '');
-      console.log('phone', phone);
-      const verifyCode = await userService.sendNumber({ phone });
-      if (verifyCode === 0) {
-        logger.error(`POST /login/findPassword - sendNumber Error`);
-        return res.status(sc.OK).send(ut.fail(rm.INTERNAL_SERVER_ERROR));
-      }
-
-      return res.status(sc.OK).send(
-        ut.success(rm.FIND_PASSWORD_SUCCESS, {
-          verifyCode,
-        })
-      );
-    } catch (error) {
-      logger.error(`POST /login/findPassword - Server Error`);
-      return res.status(sc.INTERNAL_SERVER_ERROR).send(ut.fail(rm.FIND_PASSWORD_FAIL));
-    }
-  },
-
-  /* 비밀번호 변경 */
-  updatePassword: async (req, res) => {
-    logger.info('POST /login/updatePassword');
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      logger.error(`POST /login/updatePassword - Paramaters Error`);
-      return res.status(400).json({
-        success: false,
-        message: errors.array(),
-      });
-    }
-    // 1. req.body에서 데이터 가져오기
-    const { email, password1, password2 } = req.body;
-
-    //2. password1과 password2가 맞는지 확인
-    if (password1 !== password2) {
-      logger.error(`POST /login/updatePassword - Paramaters Error`);
-      return res.status(400).send(ut.fail(rm.NO_MATCH_PASSWORD));
-    }
-    try {
-      const alreadyEmail = await userService.emailCheck({
-        email,
-      });
-      if (!alreadyEmail) {
-        logger.error(`POST /login/updatePassword - emailCheck Error`);
-        return res.status(sc.BAD_REQUEST).send(ut.fail(rm.NO_USER));
-      }
-      await userService.updatePassword({
-        email,
-        password1,
-      });
-      return res.status(sc.OK).send(ut.success(rm.UPDATE_PASSWORD_SUCCESS));
-    } catch (error) {
-      logger.error(`POST /login/updatePassword - Server Error`);
-      return res.status(sc.INTERNAL_SERVER_ERROR).send(ut.fail(rm.UPDATE_PASSWORD_FAIL));
     }
   },
 };
