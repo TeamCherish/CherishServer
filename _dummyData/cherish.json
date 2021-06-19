@@ -1,81 +1,62 @@
 [
 	{
-    "name" : "송훈기",
 		"nickname": "훈케이",
 		"growth": 1,
     "phone" : "010-1111-1111",
     "birth" : "19960212",
-    "water_date" : "2021-02-01",
+    "water_date" : "2021-06-18",
     "postpone_number" : 2,
-    "start_date" : "2021-01-01",
+    "start_date" : "2021-06-16",
     "notice_time" : "15:00",
-    "plant_id" : 1,
-    "user_id" : 1
+    "PlantId" : 1,
+    "UserId" : 1
 	},
-	{
-    "name" : "안나영",
-		"nickname": "나영아빠",
+  {
+		"nickname": "두두",
 		"growth": 2,
-    "phone" : "010-1111-1111",
-    "birth" : "19960212",
-    "water_date" : "2021-02-01",
-    "postpone_number" : 2,
-    "start_date" : "2021-01-01",
-    "notice_time" : "14:00",
-    "plant_id" : 3,
-    "user_id" : 2
+    "phone" : "010-1111-1112",
+    "birth" : "19990928",
+    "water_date" : "2021-06-18",
+    "postpone_number" : 1,
+    "start_date" : "2021-06-16",
+    "notice_time" : "15:00",
+    "PlantId" : 2,
+    "UserId" : 1
 	},
-	{
-    "name" : "권예진",
-		"nickname": "예진할머니",
+  {
+		"nickname": "엉은",
 		"growth": 3,
-    "phone" : "010-1111-1111",
+    "phone" : "010-1111-1113",
     "birth" : "19960212",
-    "water_date" : "2021-02-01",
+    "water_date" : "2021-06-18",
     "postpone_number" : 2,
-    "start_date" : "2021-01-01",
-    "notice_time" : "19:00",
-    "plant_id" : 2,
-    "user_id" : 3
+    "start_date" : "2021-06-16",
+    "notice_time" : "15:00",
+    "PlantId" : 3,
+    "UserId" : 1
 	},
-	{
-    "name" : "황지은",
-		"nickname": "지은남친",
-		"growth": 4,
-    "phone" : "010-1111-1111",
-    "birth" : "19960212",
-    "water_date" : "2021-02-01",
+  {
+		"nickname": "징니",
+		"growth": 1,
+    "phone" : "010-1111-1114",
+    "birth" : "19990212",
+    "water_date" : "2021-06-18",
     "postpone_number" : 2,
-    "start_date" : "2021-01-01",
-    "notice_time" : "11:00",
-    "plant_id" : 2,
-    "user_id" : 4
+    "start_date" : "2021-06-16",
+    "notice_time" : "15:00",
+    "PlantId" : 4,
+    "UserId" : 1
 	},
-	{
-    "name" : "이원석",
-		"nickname": "원석형",
-		"growth": 5,
-    "phone" : "010-1111-1111",
+  {
+		"nickname": "원돌",
+		"growth": 1,
+    "phone" : "010-1111-1115",
     "birth" : "19960212",
-    "water_date" : "2021-02-01",
-    "postpone_number" : 2,
-    "start_date" : "2021-01-01",
-    "notice_time" : "11:00",
-    "plant_id" : 4,
-    "user_id" : 5
-	},
-	{
-    "name" : "장서현",
-		"nickname": "서현동생",
-		"growth": 11,
-    "phone" : "010-1111-1111",
-    "birth" : "19960212",
-    "water_date" : "2021-02-01",
-    "postpone_number" : 2,
-    "start_date" : "2021-01-01",
-    "notice_time" : "11:00",
-    "plant_id" : 5,
-    "user_id" : 6
-
+    "water_date" : "2021-06-18",
+    "postpone_number" : 10,
+    "start_date" : "2021-06-16",
+    "notice_time" : "15:00",
+    "PlantId" : 1,
+    "UserId" : 2
 	}
 ]

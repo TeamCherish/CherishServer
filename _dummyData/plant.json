@@ -1,37 +1,57 @@
 [
-	{
-    "name" : "로즈마리",
-		"plant_status_id": 1,
-		"explanation": "미정",
-		"image_url": "미정",
-    "thumbnail_image_url" : "미정"
-	},
-	{
-    "name" : "아메리칸블루",
-		"plant_status_id": 2,
-		"explanation": "미정",
-		"image_url": "미정",
-    "thumbnail_image_url" : "미정"
-	},
-	{
-    "name" : "민들레",
-		"plant_status_id": 3,
-		"explanation": "미정",
-		"image_url": "미정",
-    "thumbnail_image_url" : "미정"
- 	},
-	{
-    "name" : "스투키",
-		"plant_status_id": 4,
-		"explanation": "미정",
-		"image_url": "미정",
-    "thumbnail_image_url" : "미정"
- 	},
-	{
-    "name" : "단모환",
-		"plant_status_id": 5,
-		"explanation": "미정",
-		"image_url": "미정",
-    "thumbnail_image_url" : "미정"
-	}
+  {
+    "name": "로즈마리",
+    "modifier": "당신의 하루를 치유하는 \n 향기로운 로즈마리",
+    "explanation": "2~3일에 한 번 물을 주는 것을 추천해요 \n 자주 연락하고 많은 시간을 함께하며 추억을 쌓아가요!",
+    "flower_meaning": "기억해 주세요",
+    "thumbnail_image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/thumbnail/circle_rose%403x.png",
+    "gif": "",
+    "image": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/result/img_final_rose%403x.png",
+    "main_bg": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%B5%E1%86%AB%E1%84%83%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%AC%E1%84%89%E1%85%B5%E1%86%A8%E1%84%86%E1%85%AE%E1%86%AF/main_img_americanblue.png",
+    "PlantStatusId": 1
+  },
+  {
+    "name": "아메리칸블루",
+    "modifier": "매일매일 꽃이 피는 \n 푸른 빛의 아메리칸 블루",
+    "explanation": "일주일에 한 번 물을 주는 것을 추천해요 \n 종종 안부를 묻으면서 오순도순 이야기 나누어요!",
+    "flower_meaning": "두 사람의 인연",
+    "thumbnail_image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/thumbnail/circle_blue%403x.png",
+    "gif": "",
+    "image": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/result/img_final_blue%403x.png",
+    "main_bg": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%B5%E1%86%AB%E1%84%83%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%AC%E1%84%89%E1%85%B5%E1%86%A8%E1%84%86%E1%85%AE%E1%86%AF/main_img_americanblue.png",
+    "PlantStatusId": 2
+  },
+  {
+    "name": "민들레",
+    "modifier": "감사하는 마음을 가진 \n 따뜻한 민들레",
+    "explanation": "보름에 한 번 물을 주는 것을 추천해요 \n 당신의 연락이 홀씨가 되어 날아가 행복으로 피어날거에요!",
+    "flower_meaning": "인연에서의 행복",
+    "thumbnail_image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/thumbnail/circle_min%403x.png",
+    "gif": "",
+    "image": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/result/img_final_min%403x.png",
+    "main_bg": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%B5%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A6+%E1%84%83%E1%85%A1%E1%86%AB%E1%84%80%E1%85%A8/img_min_level_3.png",
+    "PlantStatusId": 3
+  },
+  {
+    "name": "단모환",
+    "modifier": "한 송이로도 아름다운 \n 씩씩한 단모환",
+    "explanation": "세 달에 한 번 물을 주는 것을 추천해요 \n 자주 보지 못해도 분명 당신의 연락을 기다릴거에요!",
+    "flower_meaning": "단지 한번이라도",
+    "thumbnail_image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/thumbnail/cricle_sun%403x.png",
+    "gif": "",
+    "image": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/result/img_final_sun%403x.png",
+    "main_bg": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%B5%E1%86%AB%E1%84%83%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%AC%E1%84%89%E1%85%B5%E1%86%A8%E1%84%86%E1%85%AE%E1%86%AF/main_img_sun.png",
+    "PlantStatusId": 5
+  },
+  {
+    "name": "스투키",
+    "modifier": "언제나 당신을 지켜 주는 \n 든든한 스투키",
+    "explanation": "한 달에 한 번 물을 주는 것을 추천해요 \n 가끔씩 연락하더라도 오래 만날 수 있길 바라요!",
+    "flower_meaning": "너그러움",
+    "thumbnail_image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/thumbnail/cricle_stu%403x.png",
+    "gif": "",
+    "image": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/result/img_final_stuki%403x.png",
+    "main_bg": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%B5%E1%86%AB%E1%84%83%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8C%E1%85%A6%E1%84%8B%E1%85%AC%E1%84%89%E1%85%B5%E1%86%A8%E1%84%86%E1%85%AE%E1%86%AF/main_img_americanblue.png",
+    "PlantStatusId": 4
+  }
 ]

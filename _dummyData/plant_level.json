@@ -1,0 +1,107 @@
+
+[{
+		"level": 0,
+		"level_name": "새싹",
+		"description": "새싹이 쏘옥 얼굴을 내밀었어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_rose_1%403x.png",
+		"PlantId": 1
+	},
+	{
+		"level": 1,
+		"level_name": "꽃망울",
+		"description": "꽃망울이 방울방울 맺혔어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_rose_2%403x.png",
+		"PlantId": 1
+	},
+	{
+		"level": 2,
+		"level_name": "개화",
+		"description": "예쁜 꽃이 활짝 피어났어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_rose_3%403x.png",
+		"PlantId": 1
+	},
+	{
+		"level": 0,
+		"level_name": "새싹",
+		"description": "새싹이 쏘옥 얼굴을 내밀었어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_blue_1%403x.png",
+		"PlantId": 2
+	},
+	{
+		"level": 1,
+		"level_name": "꽃망울",
+		"description": "꽃망울이 방울방울 맺혔어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_blue_2%403x.png",
+		"PlantId": 2
+	},
+	{
+		"level": 2,
+		"level_name": "개화",
+		"description": "예쁜 꽃이 활짝 피어났어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_blue_3%403x.png",
+		"PlantId": 2
+	},
+	{
+		"level": 0,
+		"level_name": "새싹",
+		"description": "새싹이 쏘옥 얼굴을 내밀었어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_min_1%403x.png",
+		"PlantId": 3
+	},
+	{
+		"level": 1,
+		"level_name": "꽃망울",
+		"description": "꽃망울이 방울방울 맺혔어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_min_2%403x.png",
+		"PlantId": 3
+	},
+	{
+		"level": 2,
+		"level_name": "개화",
+		"description": "예쁜 꽃이 활짝 피어났어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_min_3%403x.png",
+		"PlantId": 3
+	},
+	{
+		"level": 0,
+		"level_name": "잎꽃이",
+		"description": "새로운 화분에 적응하기 시작했어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_stuki_1%403x.png",
+		"PlantId": 4
+	},
+	{
+		"level": 1,
+		"level_name": "어린 순",
+		"description": "어린 순이 쏘옥 얼굴을 내밀었어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_stuki_2%403x.png",
+		"PlantId": 4
+	},
+	{
+		"level": 2,
+		"level_name": "성목",
+		"description": "어느 새 늠름한 스투키가 되었어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_stuki_3%403x.png",
+		"PlantId": 4
+	},
+	{
+		"level": 0,
+		"level_name": "어린 순",
+		"description": "어린 순이 쏘옥 얼굴을 내밀었어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_sun_1%403x.png",
+		"PlantId": 5
+	},
+	{
+		"level": 1,
+		"level_name": "꽃망울",
+		"description": "귀여운 꽃망울이 맺혔어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_sun_2%403x.png",
+		"PlantId": 5
+	},
+	{
+		"level": 2,
+		"level_name": "개화",
+		"description": "예쁜 꽃이 활짝 피어났어요!",
+		"image_url": "https://cherish-bucket.s3.ap-northeast-2.amazonaws.com/plant/img_sun_3%403x.png",
+		"PlantId": 5
+	}
+]
