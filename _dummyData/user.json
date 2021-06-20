@@ -1,6 +1,5 @@
 [
 	{
-    "name" : "송훈기",
 		"nickname": "hunki",
 		"email": "hunki@gmail.com",
 		"password": "sdfsdafsdfsdafsa",
@@ -8,51 +7,47 @@
     "phone" : "010-1111-1111",
     "sex" : true,
     "birth" : "19930512",
-    "profile_image_url" : "토큰토큰토큰",
+    "profile_image_url" : "",
     "postpone_count" : 2,
-    "fcm_token" : "토큰토큰토큰"
+    "fcm_token" : ""
 	},
 	{
-    "name" : "안나영",
 		"nickname": "nayoung",
 		"email": "nayoung@gmail.com",
 		"password": "sdfsdafsdfsdafsa",
     "salt" : "eqgjfbfnbkfjbkdfjbk",
     "phone" : "010-1111-1111",
-    "sex" : true,
+    "sex" : false,
     "birth" : "19930512",
-    "profile_image_url" : "토큰토큰토큰",
+    "profile_image_url" : "",
     "postpone_count" : 2,
-    "fcm_token" : "토큰토큰토큰"
+    "fcm_token" : ""
 	},
 	{
-    "name" : "권예진",
 		"nickname": "yejin",
 		"email": "yejin@gmail.com",
 		"password": "sdfsdafsdfsdafsa",
     "salt" : "eqgjfbfnbkfjbkdfjbk",
     "phone" : "010-1111-1111",
-    "sex" : true,
+    "sex" : false,
     "birth" : "19930512",
-    "profile_image_url" : "토큰토큰토큰",
+    "profile_image_url" : "",
     "postpone_count" : 2,
-    "fcm_token" : "토큰토큰토큰"
+    "fcm_token" : ""
 	},
 	{
-    "name" : "황지은",
     "nickname": "jieun",
 		"email": "jieun@gmail.com",
 		"password": "sdfsdafsdfsdafsa",
     "salt" : "eqgjfbfnbkfjbkdfjbk",
     "phone" : "010-1111-1111",
-    "sex" : true,
+    "sex" : false,
     "birth" : "19930512",
-    "profile_image_url" : "토큰토큰토큰",
+    "profile_image_url" : "",
     "postpone_count" : 2,
-    "fcm_token" : "토큰토큰토큰"
+    "fcm_token" : ""
 	},
 	{
-    "name" : "이원석",
     "nickname": "stone",
 		"email": "stone@gmail.com",
 		"password": "sdfsdafsdfsdafsa",
@@ -60,21 +55,20 @@
     "phone" : "010-1111-1111",
     "sex" : true,
     "birth" : "19930512",
-    "profile_image_url" : "토큰토큰토큰",
+    "profile_image_url" : "",
     "postpone_count" : 2,
-    "fcm_token" : "토큰토큰토큰"
+    "fcm_token" : ""
 	},
 	{
-    "name" : "장서현",
     "nickname": "seohyeon",
 		"email": "seohyeon@gmail.com",
 		"password": "sdfsdafsdfsdafsa",
     "salt" : "eqgjfbfnbkfjbkdfjbk",
     "phone" : "010-1111-1111",
-    "sex" : true,
+    "sex" : false,
     "birth" : "19930512",
-    "profile_image_url" : "토큰토큰토큰",
+    "profile_image_url" : "",
     "postpone_count" : 2,
-    "fcm_token" : "토큰토큰토큰"
+    "fcm_token" : ""
 	}
 ]

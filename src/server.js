@@ -1,19 +1,18 @@
 const express = require('express');
-const Logger = require('./loaders/logger');
 const config = require('./config');
 const loader = require('./loaders');
-
+const logger = require('./config/winston');
 async function startServer() {
   const app = express();
 
   await loader(app);
 
   app
-    .listen(config.port, () => {
-      Logger.info(`✌️ Server listening on port: ${config.port}`);
+    .listen(config.PORT, () => {
+      logger.info(`✌️ Server listening on port: ${config.PORT}`);
     })
     .on('error', (err) => {
-      Logger.error(err);
+      logger.error(err);
       process.exit(1);
     });
 }

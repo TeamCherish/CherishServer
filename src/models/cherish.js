@@ -5,16 +5,17 @@ module.exports = (sequelize, DataTypes) => {
     'Cherish',
     {
       name: {
-        type: DataTypes.STRING(45),
+        type: DataTypes.STRING(8),
         allowNull: false,
       },
       nickname: {
-        type: DataTypes.STRING(45),
-        allowNull: false
+        type: DataTypes.STRING(8),
+        allowNull: false,
       },
       birth: {
         type: DataTypes.DATE,
         allowNull: false,
+        defaultValue: '0000-00-00',
       },
       phone: {
         type: DataTypes.STRING(45),
@@ -41,21 +42,25 @@ module.exports = (sequelize, DataTypes) => {
       start_date: {
         type: DataTypes.DATE,
         allowNull: false,
-        defaultValue: Sequelize.fn('NOW')
+        defaultValue: Sequelize.fn('NOW'),
       },
       notice_time: {
         type: DataTypes.STRING(45),
         allowNull: false,
       },
-      status_code: {
+      water_notice: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
-        defaultValue : true,
-      }
+        defaultValue: true,
+      },
+      active: {
+        type: DataTypes.STRING(3),
+        defaultValue: 'Y',
+        allowNull: false,
+      },
     },
     {
       timestamps: true,
-      underscored: true,
       tableName: 'cherish',
     }
   );

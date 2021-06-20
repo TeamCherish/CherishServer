@@ -1,58 +1,57 @@
-[
-	{
-    "water_date" : "2021-01-01",
+[{
+		"water_date": "2021-01-01",
 		"review": "여친 헤어짐",
 		"keyword1": "여친 헤어짐",
 		"keyword2": "여친 취직성공",
 		"keyword3": "자취 시작",
-		"cherish_id" : 1
+		"CherishId": 1
 	},
 	{
-    "water_date" : "2021-01-01",
+		"water_date": "2021-01-01",
 		"review": "취직 성공",
 		"keyword1": "여친 헤어짐",
 		"keyword2": "여친 취직성공",
 		"keyword3": "자취 시작",
-		"cherish_id" : 2
+		"CherishId": 2
 	},
 	{
-    "water_date" : "2021-01-01",
+		"water_date": "2021-01-01",
 		"review": "절연",
 		"keyword1": "여친 헤어짐",
 		"keyword2": "여친 취직성공",
 		"keyword3": "자취 시작",
-		"cherish_id" : 3
- 	},
+		"CherishId": 3
+	},
 	{
-    "water_date" : "2021-01-01",
+		"water_date": "2021-01-01",
 		"review": "결혼",
 		"keyword1": "여친 헤어짐",
 		"keyword2": "여친 취직성공",
 		"keyword3": "자취 시작",
-		"cherish_id" : 4
- 	},
-	{
-    "water_date" : "2021-01-01",
-		"review": "제사",
-		"keyword1": "여친 헤어짐",
-		"keyword2": "여친 취직성공",
-		"keyword3": "자취 시작",
-		"cherish_id" : 5
-  },
-  {
-    "water_date" : "2021-01-01",
-		"review": "제사",
-		"keyword1": "여친 헤어짐",
-		"keyword2": "여친 취직성공",
-		"keyword3": "자취 시작",
-		"cherish_id" : 6
+		"CherishId": 4
 	},
-  {
-    "water_date" : "2021-01-04",
+	{
+		"water_date": "2021-01-01",
+		"review": "제사",
+		"keyword1": "여친 헤어짐",
+		"keyword2": "여친 취직성공",
+		"keyword3": "자취 시작",
+		"CherishId": 5
+	},
+	{
+		"water_date": "2021-01-01",
+		"review": "제사",
+		"keyword1": "여친 헤어짐",
+		"keyword2": "여친 취직성공",
+		"keyword3": "자취 시작",
+		"CherishId": 6
+	},
+	{
+		"water_date": "2021-01-04",
 		"review": null,
 		"keyword1": "떡볶이좋아함",
 		"keyword2": null,
 		"keyword3": null,
-		"cherish_id" : 1
+		"CherishId": 1
 	}
 ]

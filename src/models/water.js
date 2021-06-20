@@ -11,21 +11,28 @@ module.exports = (sequelize, DataTypes) => {
         defaultValue: '',
       },
       keyword1: {
-        type: DataTypes.STRING(10),
+        type: DataTypes.STRING(5),
         defaultValue: '',
+        allowNull: false,
       },
       keyword2: {
-        type: DataTypes.STRING(10),
+        type: DataTypes.STRING(5),
         defaultValue: '',
+        allowNull: false,
       },
       keyword3: {
-        type: DataTypes.STRING(10),
+        type: DataTypes.STRING(5),
         defaultValue: '',
+        allowNull: false,
+      },
+      active: {
+        type: DataTypes.STRING(3),
+        defaultValue: 'Y',
+        allowNull: false,
       },
     },
     {
       timestamps: true,
-      underscored: true,
       tableName: 'water',
     }
   );
