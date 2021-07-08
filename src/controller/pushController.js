@@ -27,6 +27,7 @@ module.exports = {
                           APU.UserId
                    FROM cherish C
                       INNER JOIN app_push_user APU ON C.id=APU.CherishId
+                      INNER JOIN user U ON U.id=APU.UserId
                    WHERE APU.send_yn='N'
                      AND APU.send_code='${send_code}'
                      AND C.notice_time='${notice_time}'
